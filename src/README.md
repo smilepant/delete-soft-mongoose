@@ -20,14 +20,21 @@ yarn add delete-soft-mongoose
    const softDeletePlugin = require('delete-soft-mongoose');
    ```
 
-2. Apply the plugin to your schema.
+2. Apply the plugin.
 
+   Apply the plugin To your schema:
    ```javascript
    const YourSchema = new mongoose.Schema({
      // ... your schema fields
    });
-
    YourSchema.plugin(softDeletePlugin);
+   ```
+   Apply the plugin globally.
+
+   ```javascript
+      const mongoose = require("mongoose");
+      const softDeletePlugin = require("delete-soft-mongoose");
+      mongoose.plugin(softDeletePlugin)
    ```
 
 3. Your schema will now have a `deleted` field with `status`, `at`, and `by` properties.

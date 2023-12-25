@@ -1,6 +1,6 @@
 {
   "name": "delete-soft-mongoose",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "soft delete for mongoose, mongodb javascript",
   "main": "index.js",
   "scripts": {
