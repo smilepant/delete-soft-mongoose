@@ -1,14 +1,10 @@
 {
-  "name": "delete-soft-mongoose",
-  "version": "1.0.1",
-  "description": "soft delete for mongoose, mongodb javascript",
-  "main": "src/index.js",
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
     "test": "jest"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/smilepant/delete-soft-mongoose.git"
   },
   "keywords": [
     "mongoose",
