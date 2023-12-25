@@ -112,12 +112,9 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-- Your Name
+- Smile Pant
 
 ## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc.
+..........................
 
 ---
