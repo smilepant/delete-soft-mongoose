@@ -104,11 +104,7 @@ Simply fork and send pull request.
 
 ## Issues
 
-Please use the [issue tracker](https://github.com/yourusername/your-repository/issues) to report any issues.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/yourusername/your-repository/tags).
+Please use the [issue tracker](https://github.com/smilepant/delete-soft-mongoose/issues) to report any issues.
 
 ## Authors
 
