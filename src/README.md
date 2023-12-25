@@ -8,6 +8,10 @@ This Mongoose plugin provides soft deletion functionality for MongoDB, allowing 
 npm install delete-soft-mongoose
 ```
 
+```bash
+yarn add delete-soft-mongoose
+```
+
 ## Usage
 
 1. Import the plugin in your Mongoose schema file.
