@@ -1,5 +1,5 @@
 {
-  "name": "softdelete-mongoose",
+  "name": "delete-soft-mongoose",
   "version": "1.0.0",
   "description": "soft delete for mongoose, mongodb javascript",
   "main": "src/index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/smilepant/softdelete-mongoose.git"
+    "url": "git+https://github.com/smilepant/delete-soft-mongoose.git"
   },
   "keywords": [
     "mongoose",
@@ -22,9 +22,9 @@
   "author": "Smile Pant",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/smilepant/softdelete-mongoose/issues"
+    "url": "https://github.com/smilepant/delete-soft-mongoose/issues"
   },
-  "homepage": "https://github.com/smilepant/softdelete-mongoose#readme",
+  "homepage": "https://github.com/smilepant/delete-soft-mongoose#readme",
   "devDependencies": {
     "jest": "^29.7.0"
   },
