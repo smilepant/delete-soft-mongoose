@@ -1,3 +1,3 @@
 const softDeletePlugin = require("./softDeletePlugin");
 
-module.export =  softDeletePlugin
+module.exports =  softDeletePlugin
