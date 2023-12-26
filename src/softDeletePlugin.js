@@ -30,8 +30,15 @@ const softDeletePlugin = (schema) => {
     },
   });
 
-  schema.static("findAll", async function (query) {
-    return this.find({ "deleted.status": { $ne: true } });
+  schema.static("findAll", function (query = {}) {
+    // Exclude soft-deleted documents in the query
+    const updatedQuery = {
+      ...query,
+      "deleted.status": { $ne: true },
+    };
+  
+    // Return a query object to support chaining, including populate
+    return this.find(updatedQuery);
   });
 
   schema.pre("countDocuments", async function (next) {
