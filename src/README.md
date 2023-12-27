@@ -1,4 +1,5 @@
-# Mongoose Soft Delete Plugin
+
+# Mongoose Soft Delete Plugin [<img src="https://raw.githubusercontent.com/npm/logos/7fb0bc425e0dac1bab065217c4ed595594448db4/npm-transparent.png" width="200" align="right" alt="npm">](https://www.npmjs.com/package/delete-soft-mongoose)
 
 This Mongoose plugin provides soft deletion functionality for MongoDB, allowing you to mark documents as deleted without physically removing them from the database.
 
@@ -32,9 +33,9 @@ yarn add delete-soft-mongoose
    Apply the plugin globally.
 
    ```javascript
-      const mongoose = require("mongoose");
-      const softDeletePlugin = require("delete-soft-mongoose");
-      mongoose.plugin(softDeletePlugin)
+   const mongoose = require("mongoose");
+   const softDeletePlugin = require("delete-soft-mongoose");
+   mongoose.plugin(softDeletePlugin)
    ```
 
 3. Your schema will now have a `deleted` field with `status`, `at`, and `by` properties.
